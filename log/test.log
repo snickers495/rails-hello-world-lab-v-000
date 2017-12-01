@@ -46,3 +46,4 @@ Started GET "/hello_world" for 127.0.0.1 at 2017-12-01 18:54:06 +0000
 Processing by StaticController#home as HTML
 Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
