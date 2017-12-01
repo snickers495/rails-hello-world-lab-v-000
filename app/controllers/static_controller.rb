@@ -1,6 +1,6 @@
 class StaticController < ApplicationController
   def home
-    "home_page"
+    render "home_page"
   end
 
 end
